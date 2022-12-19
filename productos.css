@@ -1,0 +1,229 @@
+body {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-image:url("images/fondo.jpg");
+    background-size: cover;
+}
+
+header nav {
+
+    background-color: transparent;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+
+header nav ul li a.nav-link {
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+header nav ul li a.nav-link:hover {
+    color: rgb(237, 247, 105);
+    border-bottom: 2px solid #fff;
+    transition: 0.5s;
+}
+
+
+#hero {
+    width: 100%;
+    text-align: center;
+    padding-top: 210px;
+}
+
+#hero .carousel-item h2 {
+
+    color: yellow;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+#hero .carousel-item p {
+    color: #fff;
+    font-size: 22px;
+}
+
+#hero .carousel-item button {
+
+    padding: 18px 120px;
+    background: yellow;
+    border: 0px solid;
+    color: #666;
+    text-transform: uppercase;
+}
+
+#planes {
+    padding-block:  1%;
+    padding: 20%;
+    text-align: center;
+    background: center; 
+}
+
+#planes .row {
+    padding: 20%px 0 0 0;
+    text-align: center;
+
+}
+
+#planes h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center
+    ;}
+
+#planes p {
+color: #fff;
+    font-size: 22px;
+    
+}
+
+#planes .card-plan {
+    position: relative;
+}
+
+#planes .card-plan h3 {
+
+    color: rgb(0, 0, 0);
+    position:absolute;
+    top: 40%;
+    right: 30%;
+    left: 30%;
+    pointer-events: none;
+    text-align: center;
+   background-color: #ffff59;
+}
+
+
+.card-plan img {
+    transition: 0.5s;
+}
+
+.card-plan img:hover {
+    border-radius: 45%;
+    transform: rotate3d(20);
+}
+
+
+#destinos {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-image: url("../img/bg-destinos.png");
+    background-size: cover;
+}
+
+
+#destinos h2 {
+    padding-top: 50px;
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+#destinos p {
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#destinos article {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#destinos article h3 {
+    color: #fff;
+    padding-top: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contacto {
+width: 100%;
+background-color: #ffff59;
+text-align: center;
+padding: 50px 0;
+}
+
+
+#contacto h2{
+color: rgb(255, 255, 255);
+padding-top: 25px;
+font-size: 50px;
+text-transform: uppercase;
+
+}
+
+#contacto p{
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: 500;
+    }
+
+    #contacto article{
+    padding: 15px;
+
+    }
+
+ #contacto form{
+ width: 100%;
+ margin: 0 auto;
+
+ }
+
+ #contacto form input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid #be3cdf ; 
+    border-radius: 5px;
+
+ }
+
+ #contacto form select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid #be3cdf ; 
+    border-radius: 5px;
+
+ }
+
+ #contacto form button {
+    color: #fff;
+    background: #898d0e;
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+
+    border: 1px solid #be3cdf ; 
+    border-radius: 5px;
+
+ }
+
+ footer {
+    font-size: 25px ;
+    text-align: center;
+    color: #fff;
+background-color: rgb(255, 255, 255);
+    padding: 50px 0;
+ }
+
+ a .btnbtn-danger{
+    background-color: #ffff59;
+    
+ }
